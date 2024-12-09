@@ -1,0 +1,16 @@
+.info{
+    color: #414141;
+    
+}
+
+.sub{
+    width: 200px;
+}
+.formdiv{
+    /* border: 1px solid blue; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+.formdiv label{
+    font-size: 20px;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.footer{
+    background-color: #525252;
+}
+.green-taxi ul{
+    list-style-type: none;
+}
+.detail li{
+    color: snow;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+.detail Link{
+    text-decoration: none;
+}
+.detail li:hover{
+    cursor: pointer;
+    color: #5cff29;
+}
+.whatsapp:hover{
+    cursor: pointer;
+    color: #5cff29;
+}
+.facebook:hover{
+    cursor: pointer;
+    color: #0e8eea;
+}
+.instagram:hover{
+    cursor: pointer;
+    color: #f64d23;
+}
+.green-taxi{
+    color: snow;
+}
+.store:hover{
+    cursor: pointer;
+    color: #5cff29;
+}
+.links{
+    text-decoration: none;
+}

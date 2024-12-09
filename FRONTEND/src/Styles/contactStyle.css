@@ -1,0 +1,17 @@
+.t-info{
+    color:green;
+    font-style: italic;
+}
+.info-box{
+    border:2px inset grey;
+}
+.address-box p{
+    color: #525252;
+}
+.office-title{
+    color: #525252;
+    font-weight: bold;
+}
+.address-box{
+    font-size: 20px;
+}

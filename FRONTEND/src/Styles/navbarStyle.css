@@ -1,0 +1,21 @@
+.nav-item{
+    color: white;
+    font-size:20px;
+}
+.nav-item:hover{
+    text-shadow: 2px 2px 8px black;
+}
+
+/* navbarStyle.css */
+
+/* Add transition effect to the navbar collapse */
+.navbar-collapse {
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+  }
+  
+  /* Ensure the navbar is visible when expanded */
+  .navbar-collapse.show {
+    max-height: 500px; /* You can adjust the value as needed */
+  }
+  
