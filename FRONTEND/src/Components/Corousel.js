@@ -67,7 +67,7 @@ const Corousel = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/api/v1/customer/support"
+          "https://green-taxi-app.onrender.com/api/v1/customer/support"
         );
         console.log(response.data.result);
         setReviews(response.data.result);
