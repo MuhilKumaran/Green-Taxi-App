@@ -16,7 +16,7 @@ const Login = ({setLoggedIn}) => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     // Add form validation logic here if needed
 
     try {
