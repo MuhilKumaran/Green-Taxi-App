@@ -21,7 +21,7 @@ const Login = ({setLoggedIn}) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/v1/customer/login",
+        "https://green-taxi-app.onrender.com/api/v1/customer/login",
         formData
       );
       console.log(response.data.message);

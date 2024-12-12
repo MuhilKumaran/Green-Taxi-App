@@ -282,7 +282,7 @@ const Booking = () => {
       // Send the formData object to the backend
       const token = localStorage.getItem("token");
       const response = await axios.post(
-        "http://localhost:8000/api/v1/customer/booking",
+        "https://green-taxi-app.onrender.com/api/v1/customer/booking",
         formData,
         {
           headers: {

@@ -22,7 +22,7 @@ const Support = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/v1/customer/support",
+        "https://green-taxi-app.onrender.com/api/v1/customer/support",
         formData,
         {
           headers: {

@@ -25,7 +25,7 @@ const SignUp = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/v1/customer/signup",
+        "https://green-taxi-app.onrender.com/api/v1/customer/signup",
         formData
       );
 
