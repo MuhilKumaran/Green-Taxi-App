@@ -3,7 +3,7 @@ import "../Styles/homeStyle.css";
 import ola2 from "../IMAGES/ola2.svg";
 import ola3 from "../IMAGES/ola3.svg";
 import Footer from "./Footer";
-import Corousel from "../Components/Corousel";
+
 const Home = () => {
   return (
     <div className="body-box">
